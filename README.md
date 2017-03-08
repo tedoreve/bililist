@@ -6,6 +6,8 @@
 1.下载程序。右上点击'Clone or download'，点击'Download ZIP'。
 
 2.解压到想要的目录，将文件所在目录(即yourdirectory/bililist/)加入环境变量PATH即可。(win10可以直接在小娜搜索框里输入‘环境变量’找到配置窗口)
+
+3.卸载时相应地从PATH中删除，然后删除安装路径即可。
 ### 使用
 1.在urllist中输入视频网址，在timelist对应位置输入希望视频播放的时间。
 

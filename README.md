@@ -3,7 +3,7 @@
 ### 支持
 此程序仅支持Chrome和FireFox浏览器，仅在win7及win10上测试过。
 ### 安装
-1.下载程序。右上点击'Clone or download'，点击'Download ZIP'。
+1.下载程序。右上点击'Clone or download'，点击'Download ZIP'下载。
 
 2.解压到想要的目录，将文件所在目录(即yourdirectory/bililist/)加入环境变量PATH即可。(win10可以直接在小娜搜索框里输入‘环境变量’找到配置窗口)
 
@@ -13,16 +13,16 @@
 
 2.双击bililist.exe,根据提示使用即可。(比较需要注意的是缓冲时间，如果哪里卡住不动了，肯定是缓冲时间设置小了)
 ### 文件解释
-bililist.exe: 主程序，配置好后，直接启动即可。
+bililist.exe---------->主程序，配置好后，直接启动即可。
 
-chromedriver: chrome浏览器驱动。
+chromedriver.exe-->chrome浏览器驱动。
 
-geckodriver:  firefox浏览器驱动。
+geckodriver.exe---->firefox浏览器驱动。
 
-urllist.txt:  B站视频网址。
+urllist.txt------------>B站视频网址。
 
-timelist.txt: B站视频播放时间。
+timelist.txt---------->B站视频播放时间。
 
-bililist.py:  源文件，可以自己修改使用。
+bililist.py------------>源文件，可以自己修改使用。
 
-其他文件：     开发用。
+其他文件------------>开发用。

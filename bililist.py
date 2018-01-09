@@ -17,14 +17,7 @@ def init(browser):
 #        Options = webdriver.ChromeOptions()
 #        Options.add_argument("--disable-bundled-ppapi-flash")
         driver = webdriver.Chrome()
-        print()
-        print('设置为html5播放器')
-        driver.get('http://www.bilibili.com/html/help.html#p')
-        driver.find_element_by_xpath('//a[@id="bilibiliHtml5GrayTestBtn"]').click()
-        time.sleep(1)
-        driver.find_element_by_xpath('//div[@id="html5graypanel"]/div[@style="font-size: 14px; color: #222; line-height: 24px;"]/label/input').click()
-        print()
-        print('设置成功')
+
 
     else:
 #        Profile = webdriver.FirefoxProfile()
@@ -57,9 +50,9 @@ def play(urllist,timelist,mode,t,time0,browser):
     driver = init(browser)
 
     while True:
-        index = i
-        if mode == 's' or mode == 'shuffle':
-            index = source[i]
+        index = source[i]
+        if mode == 'r' or mode == 'recycle':
+            index = i
         try:
             #防止网页缓冲过长
             driver.set_page_load_timeout(timeofload)
@@ -128,7 +121,7 @@ if __name__=='__main__':
     print()
     input('B站播放列表小程序bililist,源码https://github.com/tedoreve/. 按回车继续：')
     print()
-    mode          = input('(默认循环,输入r代表循环播放,输入s代表随机播放)  请输入参数设定播放模式: ')
+    mode          = input('(默认随机,输入r代表循环播放,输入s代表随机播放)  请输入参数设定播放模式: ')
     print()
     index         = input('(默认第一个,播放列表不能为空,随机的话就无效了)  请设定从第几个视频开始播放：')
     print()

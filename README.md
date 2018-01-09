@@ -1,7 +1,7 @@
 # bililist
 自制B站播放列表，可将收藏的视频随机或循环播放
 ### 支持
-此程序仅支持Chrome和FireFox浏览器，仅在win7及win10上测试过。
+此程序仅支持Chrome和FireFox浏览器，仅在win7及win10上测试过。请使用最新版浏览器，我会尽量随着版本更新程序及附件。
 ### 安装
 1.下载程序。右上点击'Clone or download'，点击'Download ZIP'下载。
 
